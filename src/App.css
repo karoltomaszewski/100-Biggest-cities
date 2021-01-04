@@ -1,0 +1,86 @@
+* {
+  text-align: center;
+  transition: 0.15s;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.Cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Cities h1 {
+  width: 100%;
+}
+
+.Card {
+  width: 18%;
+  min-width: 80px;
+  margin: 2vh 0;
+  padding: 20px;
+  font-size: 19px;
+  border: solid 1px #bbb;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px #555;
+}
+
+.Filter,
+.ModeSwitcher {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: solid 1px;
+  border-radius: 7px;
+  outline: none;
+  background: inherit;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.ModeSwitcher {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.App.dark_mode {
+  background: #2d3436;
+  color: #dfe6e9;
+}
+
+.App.dark_mode .Card {
+  box-shadow: 0 2px 7px #b2bec3;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.CityNotFound {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+  margin: 40px 0px;
+}
+
+.GithubMark {
+}
+
+@media (max-width: 1000px) {
+  .Card {
+    width: 32%;
+  }
+}
+
+@media (max-width: 700px) {
+  .Card {
+    width: 45%;
+    padding: 10px;
+    margin: 1vh 0;
+  }
+}
