@@ -1,7 +1,12 @@
 # 100 Biggest cities of the world
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Learning cards 
+> React.js, CSS, RWD
 
-You can test it live [here](https://biggestcities.herokuapp.com/)
+You can test it live [here](http://learningcards.herokuapp.com/). It's on heroku, so wait a while before it loads.
 
+# Photos
+
+![Photo](./screen.png)
+![Photo2](./screen2.png)
 
